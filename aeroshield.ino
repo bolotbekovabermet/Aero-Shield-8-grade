@@ -5,10 +5,10 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 
-const char* ssid = "Bektur's Nest";
-const char* password = "yellownest009";
+const char* ssid = "YOUR_WIFI_NAME";
+const char* password = "YOUR_WIFI_PASSWORD";
 const char* host = "api.thingspeak.com";
-String apiKey = "UX9PUCCV4HCXXMJV";
+String apiKey = "YOUR_THINKSPEK_API_KEY";
 
 const int redLed = 5;
 const int greenLed = 19;
